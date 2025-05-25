@@ -184,6 +184,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DISPLAYPORT-FEMALE:DisplayPort"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8665,6 +8772,16 @@
 		)
 		(uuid "24c65c9d-8e0b-4993-bb7f-b2d8d6106763")
 	)
+	(label "CC1"
+		(at 243.84 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a780707-b52f-4cce-bd6f-0bbb82ced2fc")
+	)
 	(label "DC1-"
 		(at 71.12 168.91 0)
 		(effects
@@ -8885,6 +9002,16 @@
 		)
 		(uuid "58cad52f-767d-48d3-a2ec-690766f8c1d0")
 	)
+	(label "SCL"
+		(at 224.79 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5aa25823-f966-4c69-aadd-8dcc3dc16009")
+	)
 	(label "SSRXN2"
 		(at 317.5 73.66 0)
 		(effects
@@ -8925,6 +9052,16 @@
 		)
 		(uuid "6deae779-6e75-4c2f-bcb0-c247b25acbe0")
 	)
+	(label "CC2"
+		(at 243.84 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e422b22-cfd0-4b75-927d-9b4a0b1dde21")
+	)
 	(label "C_CC2"
 		(at 203.2 49.53 0)
 		(effects
@@ -8955,6 +9092,16 @@
 		)
 		(uuid "76050165-bf29-4df4-b4b8-59601c95daf9")
 	)
+	(label "SDA"
+		(at 224.79 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76314ac1-f197-464c-af99-3520cc02813f")
+	)
 	(label "SSTXN2"
 		(at 73.66 52.07 180)
 		(effects
@@ -8964,6 +9111,26 @@
 			(justify right bottom)
 		)
 		(uuid "78b2ef0e-5def-46eb-8f89-50ce8beede0f")
+	)
+	(label "DIR"
+		(at 262.89 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a233500-b0a4-4995-bb47-bc31fd8eb420")
+	)
+	(label "VBUS"
+		(at 281.94 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e4048e0-6571-4c5d-9509-22eb012b2364")
 	)
 	(label "C_CC2"
 		(at 73.66 49.53 180)
@@ -9126,6 +9293,16 @@
 		(uuid "b0c5438d-5c46-4469-8c7a-b30b3a68b47b")
 	)
 	(label "INTB"
+		(at 224.79 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b330be26-4da6-4b33-b515-df1e7e6034e2")
+	)
+	(label "INTB"
 		(at 339.09 175.26 180)
 		(effects
 			(font
@@ -9144,6 +9321,16 @@
 			(justify right bottom)
 		)
 		(uuid "b3a5adfc-35da-4769-8b41-9109d4bb9a77")
+	)
+	(label "HPDC"
+		(at 262.89 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b51846c9-2b49-41a7-9350-1a3afae132ee")
 	)
 	(label "SSTXN2_F"
 		(at 168.91 176.53 180)
@@ -9314,6 +9501,16 @@
 			(justify left bottom)
 		)
 		(uuid "df87825d-01ed-4a03-bb93-6bc10c73239a")
+	)
+	(label "+3V3"
+		(at 280.67 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5aefdfd-2505-4d9e-990a-16c15e4162f7")
 	)
 	(label "SBU1"
 		(at 184.15 189.23 180)
@@ -9572,6 +9769,70 @@
 			(project "bifrost"
 				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 280.67 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03427379-ba88-4ce7-bba2-fc30e81b10f9")
+		(property "Reference" "TP9"
+			(at 277.368 231.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 273.812 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 280.67 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1071bfdc-f064-42bd-a63b-d57e59491936")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10858,6 +11119,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27188818-c26d-474a-a9a7-217e210fe4da")
+		(property "Reference" "TP2"
+			(at 221.488 231.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SDA"
+			(at 217.932 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a031142e-d190-4a96-a09a-49ff8183b549")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 328.93 154.94 180)
 		(unit 1)
@@ -11724,6 +12049,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 281.94 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3504f256-c46f-48b3-bbcf-dea696708a19")
+		(property "Reference" "TP5"
+			(at 278.638 225.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 275.082 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 281.94 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23cf6027-67cf-4a8a-a919-b55fe0142ea9")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 210.82 72.39 0)
 		(unit 1)
@@ -12363,6 +12752,70 @@
 			(project "bifrost"
 				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "455e7639-3512-4ee1-b1f6-c2941c4507db")
+		(property "Reference" "TP7"
+			(at 259.588 225.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DIR"
+			(at 256.032 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56128dc7-5e23-4045-bd34-a57db72f5e21")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -13063,6 +13516,70 @@
 			(project "bifrost"
 				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cc3fecf-3c44-4d41-ba98-f88225cd1dcc")
+		(property "Reference" "TP4"
+			(at 240.538 231.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC2"
+			(at 236.982 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6cff51-ba29-4d8a-a165-32c0451a8023")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -14111,6 +14628,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 262.89 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "927dfc29-ee4c-460f-ba5c-552bd45cdda8")
+		(property "Reference" "TP8"
+			(at 259.588 231.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HPD"
+			(at 256.032 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 262.89 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8052feeb-449f-4390-96f3-3e81d4e43b6b")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPD4E05U06DQAR:TPD4E05U06DQAR")
 		(at 342.9 78.74 0)
 		(unit 1)
@@ -14972,6 +15553,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3faf760-2bf5-426a-85a6-d61950b6547b")
+		(property "Reference" "TP3"
+			(at 240.538 225.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CC1"
+			(at 236.982 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3517e7-a6f4-4ece-97ce-fb3e1c87a914")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 240.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6221c88-8297-43c6-acbb-18658c949c24")
+		(property "Reference" "TP6"
+			(at 221.488 237.998 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INTB"
+			(at 217.932 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "962328ad-b58a-4de3-bfb7-6d056c9d7a07")
+		)
+		(instances
+			(project "bifrost"
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:74LVC1G125")
 		(at 238.76 191.77 0)
 		(unit 1)
@@ -15612,6 +16321,70 @@
 			(project ""
 				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d390999a-5a06-4bae-8cf7-f587aa4b95a3")
+		(property "Reference" "TP1"
+			(at 221.488 225.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SCL"
+			(at 217.932 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e84b6e89-2c52-4604-91a2-fd765d4a16a8")
+		)
+		(instances
+			(project ""
+				(path "/9a8450b1-74aa-4738-96df-431837d0eb6c"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
